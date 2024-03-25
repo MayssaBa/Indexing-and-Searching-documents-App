@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 400px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: rgb(230, 236, 168);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(173, 171, 171, 0.1);
+}
+
+.w{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    color: rgb(124, 132, 69);
+}
+
+/* Form styles */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+form input[type="text"],
+form input[type="file"],
+form input[type="submit"],
+form input[type="reset"] {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box; 
+}
+.container a button{
+    width: 500px;
+    margin: 10px 10px ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+form input[type="submit"],
+form input[type="reset"],
+.container a button{
+    background-color: #badd5a;
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover ,
+.container a button:hover{
+    background-color: #cbef7e;
+}
+
+#icon{
+    font-size: 14px;
+    margin-right: 5px;
+    color: #295208;
+}

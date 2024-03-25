@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Indexer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="w">Ajouter des documents</h1>
+        <form method="post" action="traite.php" enctype="multipart/form-data">
+            Donner un fichier:<br><input type="file" id="doc" name="doc"><br>
+            Titre:<br><input type="text" id="titre" name="titre"><br>
+            Mot Clé:<br><input type="text" id="mc" name="mc"><br>
+            <input type="submit" value="Ajouter"/><br>
+            <input type="reset" value="Effacer"/>
+        </form>
+    </div>
+    
+</body>
+
+</html>
